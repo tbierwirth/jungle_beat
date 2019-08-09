@@ -11,4 +11,9 @@ class NodeTest < Minitest::Test
   def test_it_exists
     assert_instance_of Node, @node
   end
+
+  def test_data_method
+    assert_equal "plop", @node.data
+  end
+  
 end

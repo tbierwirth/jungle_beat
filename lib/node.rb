@@ -4,5 +4,9 @@ class Node
   def initialize(name)
     @name = name
   end
-  
+
+  def data
+    p name
+  end
+
 end

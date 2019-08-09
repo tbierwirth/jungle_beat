@@ -9,4 +9,8 @@ class Node
     p name
   end
 
+  def next_node
+
+  end
+
 end

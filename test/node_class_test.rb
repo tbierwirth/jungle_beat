@@ -15,5 +15,9 @@ class NodeTest < Minitest::Test
   def test_data_method
     assert_equal "plop", @node.data
   end
-  
+
+  def test_next_node_method
+    assert_nil nil, @node.next_node
+  end
+
 end
